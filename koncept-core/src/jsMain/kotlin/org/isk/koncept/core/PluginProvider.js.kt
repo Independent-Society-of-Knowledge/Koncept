@@ -1,6 +1,6 @@
 package org.isk.koncept.core
 
-import org.isk.koncept.plugin.block.KPlugin
+import org.isk.koncept.plugin.KPlugin
 
 actual class PluginProvider {
     actual fun provideLocalPlugins(): List<KPlugin> {
